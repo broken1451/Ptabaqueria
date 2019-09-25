@@ -1,0 +1,11 @@
+2019-09-19T20:00:57+00:00 CRITICAL Uncaught Error: Class 'SoapClient' not found in C:\xampp\htdocs\xampp\tabaqueria\wp-content\plugins\wc-transbank-webpay-plus\libwebpay\soap\soapclient.php:5
+Stack trace:
+#0 C:\xampp\htdocs\xampp\tabaqueria\wp-content\plugins\wc-transbank-webpay-plus\libwebpay\webpay-normal.php(4): require_once()
+#1 C:\xampp\htdocs\xampp\tabaqueria\wp-content\plugins\wc-transbank-webpay-plus\libwebpay\webpay-soap.php(2): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\xampp\tabaqueria\wp-content\plugins\wc-transbank-webpay-plus\class-wc-transbank.php(29): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\xampp\tabaqueria\wp-includes\class-wp-hook.php(286): woocommerce_transbank_init('')
+#4 C:\xampp\htdocs\xampp\tabaqueria\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\xampp\tabaqueria\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\xampp\tabaqueria\wp-settings.php(394): do_action('plugins_loaded')
+#7 C:\xampp\htdocs\xampp\tabaqueria\wp-config.p en C:\xampp\htdocs\xampp\tabaqueria\wp-content\plugins\wc-transbank-webpay-plus\libwebpay\soap\soapclient.php en la línea 5
+
